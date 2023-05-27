@@ -21,4 +21,15 @@ public class Passarro extends Animal{
                 "nome='" + nome + '\'' +
                 '}';
     }
+
+    @Override
+    public void comer() {
+
+    }
+
+    @Override
+    public void dormir() {
+
+
+    }
 }

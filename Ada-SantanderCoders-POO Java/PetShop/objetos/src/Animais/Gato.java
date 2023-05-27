@@ -18,6 +18,17 @@ public class Gato extends Animal{
         System.out.println("Miau-Miau");
 
     }
+
+    @Override
+    public void dormir() {
+
+
+    }
+
+    @Override
+    public void comer() {
+
+    }
     public static int getNumeroDeGatos() {
         return numeroDeGatos;
     }

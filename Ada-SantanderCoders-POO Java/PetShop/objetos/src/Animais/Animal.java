@@ -1,6 +1,6 @@
 package Animais;
 
-public class Animal {
+public abstract class  Animal {
     protected String nome;
     protected String cor;
     protected int altura;
@@ -55,15 +55,9 @@ public class Animal {
         this.estadoDeEspirito = estadoDeEspirito;
     }
 
-    public void comer(){
+    public abstract void comer();
 
-    }
+    public abstract void dormir();
 
-    public void dormir(){
-
-    }
-
-    public void soar(){
-        System.out.println(" ");
-    }
+    public abstract void soar();
 }
